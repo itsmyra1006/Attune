@@ -1,4 +1,4 @@
-#Attune 
+# Attune 
 
 A browser extension that dynamically adapts the web to your mind.
 A screenshot of Attune's TL;DR Summary feature in action on Wikipedia.
@@ -7,7 +7,7 @@ The digital world is largely built for a neurotypical framework, creating invisi
 
 This project was developed as a high-fidelity prototype for a hackathon.
 
-##✨ Features
+## ✨ Features
 **ADHD Focus Mode:** Instantly declutters any webpage into a clean, single-column, distraction-free format.
 
 **Dyslexia Friendly Mode:** Applies the OpenDyslexic font and adds an interactive "reading ruler" that follows the mouse to aid focus.
@@ -22,7 +22,7 @@ This project was developed as a high-fidelity prototype for a hackathon.
 
 **Persistent Settings:** Remembers your preferred modes and themes across different websites and browsing sessions.
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 **Frontend:** Browser Extension (Vanilla JavaScript, HTML, CSS) for Chromium-based browsers (Chrome, Brave, etc.)
 
 **Backend:** Node.js with Express
@@ -31,17 +31,17 @@ This project was developed as a high-fidelity prototype for a hackathon.
 
 **Storage:** chrome.storage API
 
-##🚀 Getting Started
+## 🚀 Getting Started
 To get this project running on your local machine, follow these steps.
 
-###Prerequisites
+### Prerequisites
 **Node.js:** Make sure you have Node.js installed. You can download it from nodejs.org.
 
 **Git:** You'll need Git to clone the repository.
 
 **A Chromium-based Browser:** Google Chrome, Brave, Microsoft Edge, etc.
 
-###Installation & Setup
+### Installation & Setup
 1. **Clone the Repository**
 Open your terminal and run the following command:
 
@@ -83,7 +83,7 @@ Select the attune-extension folder from the cloned repository.
 
 The Attune icon should now appear in your browser's toolbar, and the extension is ready to use!
 
-##Usage
+## Usage
 Navigate to any webpage.
 
 Click the Attune icon in your browser toolbar to open the control popup.
