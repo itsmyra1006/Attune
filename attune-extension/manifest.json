@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Attune",
+  "version": "1.0.0",
+  "description": "Attune adapts the web to your mind. A real-time accessibility tool for the neurodivergent community.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:3000/"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}

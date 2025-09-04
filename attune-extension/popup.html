@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Attune</title>
+  <style>
+    body { width: 200px; font-family: sans-serif; text-align: center; padding: 10px; }
+    button, select { width: 95%; margin: 5px 0; padding: 8px; border: 1px solid #ccc; background-color: #f5f5f5; cursor: pointer; border-radius: 4px; }
+    button:hover, select:hover { background-color: #e0e0e0; }
+    hr { width: 90%; border: 0; border-top: 1px solid #ccc; margin: 15px auto; }
+    button.active { background-color: #d4eaff; border-color: #007bff; font-weight: bold; }
+    .tts-controls { display: flex; justify-content: space-around; }
+    .tts-controls button { width: 45%; }
+  </style>
+</head>
+<body>
+  <h3>Attune</h3>
+  <button id="adhdMode">ADHD Focus</button>
+  <button id="dyslexiaMode">Dyslexia Friendly</button>
+  <hr>
+  <label for="theme-select">Sensory Theme:</label>
+  <select id="theme-select">
+    <option value="none">Default</option>
+    <option value="light-contrast">Light High Contrast</option>
+    <option value="dark">Smart Dark</option>
+    <option value="inverted">Inverted Mode</option>
+    <option value="low-blue">Low Blue Light</option>
+    <option value="pastel">Pastel Garden</option>
+  </select>
+  <hr>
+  <button id="tldr">Generate TL;DR</button>
+  <hr>
+  <div id="tts-container" style="display: none;">
+    <p style="margin: 5px 0; font-size: 12px; font-weight: bold;">READ ALOUD CONTROLS</p>
+    <div class="tts-controls">
+      <button id="pauseResumeBtn">Pause</button>
+      <button id="stopBtn">Stop</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
