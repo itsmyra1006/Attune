@@ -1,12 +1,5 @@
 # Attune 
-
-A browser extension that dynamically adapts the web to your mind.
-A screenshot of Attune's TL;DR Summary feature in action on Wikipedia.
-
 The digital world is largely built for a neurotypical framework, creating invisible barriers for the 15-20% of the population that is neurodivergent. Attune is a browser extension designed to bridge this gap. It acts as a real-time accessibility layer, using AI and dynamic styling to transform cluttered, overwhelming webpages into calm, focused, and personalized reading experiences.
-
-This project was developed as a high-fidelity prototype for a hackathon.
-
 ## ✨ Features
 **ADHD Focus Mode:** Instantly declutters any webpage into a clean, single-column, distraction-free format.
 
