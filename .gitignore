@@ -1,5 +1,7 @@
 # Dependencies folder
 node_modules
+**/node_modules
 
 # File containing secrets
 .env
+**/.env 
