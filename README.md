@@ -1,19 +1,19 @@
 # Attune 
 The digital world is largely built for a neurotypical framework, creating invisible barriers for the 15-20% of the population that is neurodivergent. Attune is a browser extension designed to bridge this gap. It acts as a real-time accessibility layer, using AI and dynamic styling to transform cluttered, overwhelming webpages into calm, focused, and personalized reading experiences.
 ## ✨ Features
-**ADHD Focus Mode:** Instantly declutters any webpage into a clean, single-column, distraction-free format.
+- [x] **ADHD Focus Mode:** Instantly declutters any webpage into a clean, single-column, distraction-free format.
 
-**Dyslexia Friendly Mode:** Applies the OpenDyslexic font and adds an interactive "reading ruler" that follows the mouse to aid focus.
+- [x] **Dyslexia Friendly Mode:** Applies the OpenDyslexic font and adds an interactive "reading ruler" that follows the mouse to aid focus.
 
-**Customizable Sensory Themes:** A suite of visual themes (like Smart Dark and Low Blue Light) to reduce sensory overload, with built-in protection for informational images.
+- [x] **Customizable Sensory Themes:** A suite of visual themes (like Smart Dark and Low Blue Light) to reduce sensory overload, with built-in protection for informational images.
 
-**AI-Powered TL;DR Summaries:** Generates concise summaries of long articles on-demand using the Google Gemini AI.
+- [x] **AI-Powered TL;DR Summaries:** Generates concise summaries of long articles on-demand using the Google Gemini AI.
 
-**AI-Powered Explanations:** Allows users to highlight any word or phrase and get a simple explanation via a right-click menu.
+- [x] **AI-Powered Explanations:** Allows users to highlight any word or phrase and get a simple explanation via a right-click menu.
 
-**Text-to-Speech:** Reads any highlighted text aloud with pause, resume, and stop controls, accessible via the right-click menu and popup.
+- [x] **Text-to-Speech:** Reads any highlighted text aloud with pause, resume, and stop controls, accessible via the right-click menu and popup.
 
-**Persistent Settings:** Remembers your preferred modes and themes across different websites and browsing sessions.
+- [x] **Persistent Settings:** Remembers your preferred modes and themes across different websites and browsing sessions.
 
 ## 🛠️ Tech Stack
 **Frontend:** Browser Extension (Vanilla JavaScript, HTML, CSS) for Chromium-based browsers (Chrome, Brave, etc.)
